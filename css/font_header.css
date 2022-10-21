@@ -1,0 +1,188 @@
+ /* 引入必须要用 */
+ @font-face {
+     font-family: 'icomoon';
+     /* 注意这里的路径 更换位置需要修改路径 */
+
+     src: url('../fonts/icomoon.eot?1lv3na');
+     src: url('../fonts/icomoon.eot?1lv3na#iefix') format('embedded-opentype'),
+         url('../fonts/icomoon.ttf?1lv3na') format('truetype'),
+         url('../fonts/icomoon.woff?1lv3na') format('woff'),
+         url('../fonts/icomoon.svg?1lv3na#icomoon') format('svg');
+     font-weight: normal;
+     font-style: normal;
+     font-display: block;
+ }
+
+ .iconfont {
+     font-family: 'icomoon';
+     color: #b6b6b6;
+
+ }
+
+ .icon-prev::before {
+     content: '\e919';
+     margin-right: 15px;
+ }
+
+ .icon-next::before {
+     content: '\e91a';
+ }
+
+ .icon-sousuo::before {
+     content: '\e92b';
+     font-size: 15px;
+
+ }
+
+ .icon-huatong::before {
+     content: '\e914';
+
+ }
+
+ /* .icon-more {
+    position: relative;
+} */
+ .icon-more::before {
+     content: '\e91b';
+     /* position: absolute;
+    top: -15px;
+    left: 2px; */
+ }
+
+ .icon-pifu::before {
+     content: '\e93f';
+
+ }
+
+ .icon-shezhi::before {
+     content: '\e93c';
+
+ }
+
+ .icon-xinxiang::before {
+     content: '\ea0c';
+
+ }
+
+ .icon-suofang::before {
+     content: '\e915';
+
+ }
+
+ .icon-hengxian::before {
+     content: '\e91f';
+
+ }
+
+ .icon-kuang::before {
+     content: '\e93e';
+
+ }
+
+ .icon-cha::before {
+     content: '\e93d';
+
+ }
+
+ .icon-xiazai::before {
+     content: '\e939';
+ }
+
+ .icon-bofang::before {
+     content: '\e932';
+ }
+
+ .icon-wangpan::before {
+     content: '\e93b';
+ }
+
+ .icon-boke::before {
+     content: '\e931';
+ }
+
+ .icon-soucang::before {
+     content: '\e930';
+ }
+
+ .icon-dian::before {
+     content: '\e91b';
+
+ }
+
+ .icon-jia::before {
+     content: '\e940';
+ }
+
+ .icon-love1::before {
+     content: '\e91e';
+ }
+
+ .icon-love2::before {
+     content: '\e91c';
+ }
+
+ .icon-recom::before {
+     content: '\e9ac';
+     font-size: 24px;
+     position: absolute;
+     top: 2px;
+ }
+
+ .icon-lovely {
+     vertical-align: middle;
+ }
+
+ .icon-lovely::before {
+     content: '\e91e';
+     font-size: 20px;
+    
+ }
+
+ /* 底部播放 */
+ .icon-zanting::before {
+     content: '\eab9';
+     font-size: 26px;
+
+ }
+
+ .icon-fang::before {
+     content: '\eab7';
+     font-size: 26px;
+
+ }
+
+ .icon-shang::before {
+     content: '\ea5c';
+
+ }
+
+ .icon-xia::before {
+     content: '\ea5d';
+
+ }
+
+ .icon-xunhuan::before {
+     content: '\eaac';
+
+ }
+
+ .icon-ci::before {
+     content: '\eb4a';
+ }
+
+ /* ea89 人头 ea8f 声音  ea90 静音 eadd 列表 e931 音质*/
+ .icon-yinzhi::before {
+     content: '\e931';
+ }
+
+ .icon-shengyin::before {
+     content: '\ea8f';
+ }
+
+ .icon-fenxiang::before {
+     content: '\ea89';
+ }
+
+ .icon-liebiao::before {
+     content: '\eadd';
+ }
